@@ -14,5 +14,4 @@ EOM
 pacman-key --init
 pacman -Sy --noconfirm && pacman -S --noconfirm archlinuxcn-keyring
 pacman -S --noconfirm yay
-
-sudo --set-home -u builder yay -S --noconfirm --builddir=./ "$pkgname"
+yes | sudo --set-home -u builder yay -S --noconfirm --builddir=./ "$pkgname"
