@@ -1,4 +1,5 @@
 name: 'Build AUR Package'
+description: "build aur package"
 branding:
   icon: user-check
   color: gray-dark

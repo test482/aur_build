@@ -12,7 +12,7 @@ jobs:
         repos: [clash-for-windows-bin, jetbrains-toolbox, streamlink-twitch-gui-bin, visual-studio-code-bin, watt-toolkit-bin, wps-office, wps-office-mui-zh-cn]
         include:
           - repos: [clash-for-windows-bin, streamlink-twitch-gui-bin, visual-studio-code-bin]
-          preinstall-pkgs: "at-spi2-core"
+            preinstall-pkgs: "at-spi2-core"
       fail-fast: false
 
     runs-on: ubuntu-latest
