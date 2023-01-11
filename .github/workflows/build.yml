@@ -19,7 +19,6 @@ jobs:
             wps-office,
             wps-office-mui-zh-cn,
             cef-minimal-obs-bin,
-            obs-studio-tytan652,
           ]
         include:
           - repos: clash-for-windows-bin
@@ -28,8 +27,6 @@ jobs:
             preinstall-pkgs: "at-spi2-core"
           - repos: visual-studio-code-bin
             preinstall-pkgs: "at-spi2-core"
-          - repos: obs-studio-tytan652
-            preinstall-pkgs: "cef-minimal-obs-bin"
       fail-fast: false
 
     runs-on: ubuntu-latest
