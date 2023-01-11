@@ -9,8 +9,7 @@ jobs:
   buildAUR:
     strategy:
       matrix:
-        repos:
-          [
+        repos: [
             clash-for-windows-bin,
             jetbrains-toolbox,
             streamlink-twitch-gui-bin,
@@ -18,7 +17,11 @@ jobs:
             watt-toolkit-bin,
             wps-office,
             wps-office-mui-zh-cn,
+            # obs-studio-tytan652 dependencies
             cef-minimal-obs-bin,
+            libajantv2,
+            ffmpeg-obs,
+            vlc-luajit,
           ]
         include:
           - repos: clash-for-windows-bin
