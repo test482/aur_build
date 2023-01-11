@@ -28,6 +28,8 @@ jobs:
             preinstall-pkgs: "at-spi2-core"
           - repos: visual-studio-code-bin
             preinstall-pkgs: "at-spi2-core"
+          - repos: obs-studio-tytan652
+            preinstall-pkgs: "cef-minimal-obs-bin"
       fail-fast: false
 
     runs-on: ubuntu-latest
