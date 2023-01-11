@@ -19,7 +19,6 @@ jobs:
             wps-office-mui-zh-cn,
             # obs-studio-tytan652 dependencies
             cef-minimal-obs-bin,
-            libajantv2,
             ffmpeg-obs,
             vlc-luajit,
           ]
