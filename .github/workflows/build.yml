@@ -29,8 +29,6 @@ jobs:
             preinstall-pkgs: "at-spi2-core"
           - repos: visual-studio-code-bin
             preinstall-pkgs: "at-spi2-core"
-          - repos: ffmpeg-obs
-            preinstall-pkgs: "base-devel"
       fail-fast: false
 
     runs-on: ubuntu-latest
