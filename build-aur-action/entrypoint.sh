@@ -20,4 +20,11 @@ if [ ! -z "$INPUT_PREINSTALLPKGS" ]; then
     yay -Syu --noconfirm "$INPUT_PREINSTALLPKGS"
 fi
 
+# fix path
+for perl_path_dir in {/usr/bin/site_perl,/usr/bin/vendor_perl,/usr/bin/core_perl}; do
+if [[ ! "${PATH}" == *"${perl_path_dir}"* ]]; then
+    PATH=$PATH:$perl_path_dir
+fi
+done
+
 sudo --set-home -u builder yay -S --noconfirm --builddir=./ "$pkgname"
