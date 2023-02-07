@@ -17,6 +17,7 @@ jobs:
             watt-toolkit-bin,
             wps-office,
             wps-office-mui-zh-cn,
+            xpadneo-dkms,
             # obs-studio-tytan652 dependencies
             cef-minimal-obs-bin,
             ffmpeg-obs,
