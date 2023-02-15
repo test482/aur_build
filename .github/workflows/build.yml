@@ -24,7 +24,7 @@ jobs:
             ffmpeg-obs,
             vlc-luajit,
             # MongoDB
-            mongodb-bin，
+            mongodb-bin,
             mongodb-compass,
           ]
         include:
