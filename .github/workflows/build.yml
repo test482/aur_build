@@ -16,6 +16,7 @@ jobs:
             visual-studio-code-bin,
             watt-toolkit-bin,
             xpadneo-dkms,
+            localsend-bin,
             # wps
             wps-office,
             wps-office-mui-zh-cn,
