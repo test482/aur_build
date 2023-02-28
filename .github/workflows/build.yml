@@ -24,6 +24,7 @@ jobs:
             cef-minimal-obs-bin,
             ffmpeg-obs,
             vlc-luajit,
+            obs-plugin-input-overlay-git,
             # MongoDB
             mongodb-bin,
             mongodb-compass,
