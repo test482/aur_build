@@ -21,7 +21,8 @@ jobs:
             wps-office,
             wps-office-mui-zh-cn,
             # obs-studio-tytan652 dependencies
-            cef-minimal-obs-bin,
+            # archlinuxcn do have cef-minimal-obs-bin now
+            # cef-minimal-obs-bin,
             ffmpeg-obs,
             vlc-luajit,
             obs-plugin-input-overlay-git,
