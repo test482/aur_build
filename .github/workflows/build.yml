@@ -21,6 +21,8 @@ jobs:
             # wps
             wps-office,
             wps-office-mui-zh-cn,
+            ttf-wps-fonts,
+            wps-office-fonts,
             # obs-studio-tytan652 dependencies
             # archlinuxcn do have cef-minimal-obs-bin now
             # cef-minimal-obs-bin,
