@@ -17,6 +17,7 @@ jobs:
             watt-toolkit-bin,
             xpadneo-dkms,
             localsend-bin,
+            microsoft-edge-stable-bin,
             # wps
             wps-office,
             wps-office-mui-zh-cn,
