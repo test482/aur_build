@@ -15,7 +15,7 @@ jobs:
             streamlink-twitch-gui-bin,
             visual-studio-code-bin,
             watt-toolkit-bin,
-            xpadneo-dkms,
+            # xpadneo-dkms,
             localsend-bin,
             microsoft-edge-stable-bin,
             # wps
