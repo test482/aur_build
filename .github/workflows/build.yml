@@ -63,6 +63,7 @@ jobs:
           allowUpdates: true
           tag: "packages"
           artifacts: "./*/*.zst"
+          removeArtifacts: true
           token: ${{ secrets.GITHUB_TOKEN }}
 
   #  buildNonAUR:
