@@ -15,6 +15,7 @@ jobs:
             streamlink-twitch-gui-bin,
             visual-studio-code-bin,
             watt-toolkit-bin,
+            macchina,
             # xpadneo-dkms,
             localsend-bin,
             microsoft-edge-stable-bin,
@@ -24,7 +25,6 @@ jobs:
             ttf-wps-fonts,
             wps-office-fonts,
             # obs-studio-tytan652 dependencies
-            # archlinuxcn do have cef-minimal-obs-bin now
             # cef-minimal-obs-bin,
             ffmpeg-obs,
             vlc-luajit,
