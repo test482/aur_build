@@ -10,15 +10,13 @@ jobs:
     strategy:
       matrix:
         repos: [
-            clash-for-windows-bin,
             jetbrains-toolbox,
-            streamlink-twitch-gui-bin,
+            streamlink-twitch-gui-git,
             visual-studio-code-bin,
             watt-toolkit-bin,
-            macchina,
+            # macchina,
             # xpadneo-dkms,
             localsend-bin,
-            microsoft-edge-stable-bin,
             # wps
             wps-office,
             wps-office-mui-zh-cn,
@@ -63,7 +61,6 @@ jobs:
           allowUpdates: true
           tag: "packages"
           artifacts: "./*/*.zst"
-          removeArtifacts: true
           token: ${{ secrets.GITHUB_TOKEN }}
 
   #  buildNonAUR:
