@@ -11,12 +11,10 @@ jobs:
       matrix:
         repos: [
             jetbrains-toolbox,
+            localsend-bin,
             streamlink-twitch-gui-git,
             visual-studio-code-bin,
             watt-toolkit-bin,
-            # macchina,
-            # xpadneo-dkms,
-            localsend-bin,
             # wps
             wps-office,
             wps-office-mui-zh-cn,
@@ -32,8 +30,6 @@ jobs:
             mongodb-compass,
           ]
         include:
-          - repos: clash-for-windows-bin
-            preinstall-pkgs: "at-spi2-core"
           - repos: streamlink-twitch-gui-bin
             preinstall-pkgs: "at-spi2-core"
           - repos: visual-studio-code-bin
