@@ -12,6 +12,7 @@ jobs:
         repos: [
             jetbrains-toolbox,
             localsend-bin,
+            lorien-bin,
             streamlink-twitch-gui-git,
             visual-studio-code-bin,
             watt-toolkit-bin,
@@ -20,14 +21,6 @@ jobs:
             wps-office-mui-zh-cn,
             ttf-wps-fonts,
             wps-office-fonts,
-            # obs-studio-tytan652 dependencies
-            # cef-minimal-obs-bin,
-            ffmpeg-obs,
-            vlc-luajit,
-            obs-plugin-input-overlay-git,
-            # MongoDB
-            mongodb-bin,
-            mongodb-compass,
           ]
         include:
           - repos: streamlink-twitch-gui-bin
