@@ -24,8 +24,6 @@ jobs:
         include:
           - repos: streamlink-twitch-gui-bin
             preinstall-pkgs: "at-spi2-core"
-          - repos: visual-studio-code-bin
-            preinstall-pkgs: "at-spi2-core"
       fail-fast: false
 
     runs-on: ubuntu-latest
