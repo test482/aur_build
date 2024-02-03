@@ -14,7 +14,6 @@ jobs:
             localsend-bin,
             lorien-bin,
             streamlink-twitch-gui-git,
-            visual-studio-code-bin,
             watt-toolkit-bin,
             # wps
             wps-office,
